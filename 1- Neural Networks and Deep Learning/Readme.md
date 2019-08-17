@@ -712,4 +712,12 @@ Common steps for pre-processing a new dataset are:
     Reshape the datasets such that each example is now a vector of size (num_px * num_px * 3, 1)
     "Standardize" the data
 
+The main steps for building a Neural Network are:
+
+    Define the model structure (such as number of input features)
+    Initialize the model's parameters
+    Loop:
+        Calculate current loss (forward propagation)
+        Calculate current gradient (backward propagation)
+        Update parameters (gradient descent)
 
