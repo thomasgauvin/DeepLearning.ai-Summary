@@ -731,3 +731,12 @@ Here are the two formulas you will be using:
 
     ∂J∂w=1/m * X(A−Y)T
     ∂J∂b=1/m * ∑i=1m(a(i)−y(i))
+    
+ What to remember: You've implemented several functions that:
+
+    Initialize (w,b)
+    Optimize the loss iteratively to learn parameters (w,b):
+        computing the cost and its gradient
+        updating the parameters using gradient descent
+    Use the learned (w,b) to predict the labels for a given set of examples
+
