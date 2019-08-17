@@ -701,4 +701,15 @@ Here are the course summary as its given on the course [link](https://www.course
 
 <br><br>
 <br><br>
-These Notes were made by [Mahmoud Badry](mailto:mma18@fayoum.edu.eg) @2017
+These Notes were made by [Mahmoud Badry](mailto:mma18@fayoum.edu.eg) @2017 <-- Big shoutout to this guy 
+
+## My added notes: important things to note from assignments
+ What you need to remember:
+
+Common steps for pre-processing a new dataset are:
+
+    Figure out the dimensions and shapes of the problem (m_train, m_test, num_px, ...)
+    Reshape the datasets such that each example is now a vector of size (num_px * num_px * 3, 1)
+    "Standardize" the data
+
+
