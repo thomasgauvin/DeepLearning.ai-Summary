@@ -721,3 +721,14 @@ The main steps for building a Neural Network are:
         Calculate current gradient (backward propagation)
         Update parameters (gradient descent)
 
+Forward Propagation:
+
+    You get X
+    You compute A=σ(wTX+b)=(a(1),a(2),...,a(m−1),a(m))A=σ(wTX+b)=(a(1),a(2),...,a(m−1),a(m))
+    You calculate the cost function: J=−1m∑mi=1y(i)log(a(i))+(1−y(i))log(1−a(i))J=−1m∑i=1my(i)log⁡(a(i))+(1−y(i))log⁡(1−a(i))
+
+Here are the two formulas you will be using:
+
+    ∂J∂w=1mX(A−Y)T(7)
+    ∂J∂w=1mX(A−Y)T
+    ∂J∂b=1m∑i=1m(a(i)−y(i))(8)
