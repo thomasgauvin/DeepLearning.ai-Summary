@@ -729,6 +729,5 @@ Forward Propagation:
 
 Here are the two formulas you will be using:
 
-    ∂J∂w=1mX(A−Y)T(7)
-    ∂J∂w=1mX(A−Y)T
-    ∂J∂b=1m∑i=1m(a(i)−y(i))(8)
+    ∂J∂w=1/m * X(A−Y)T
+    ∂J∂b=1/m * ∑i=1m(a(i)−y(i))
